@@ -8,6 +8,7 @@ import CondidatePage from './pages/CondidatePage';
 import SectionPage from './pages/SectionPage';
 import Header from './components/Header'
 import NotesListPage from './pages/NotesListPage'
+import ResultPage from './pages/Result_Page';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
               <Route path="/condidate" exact element={ <CondidatePage/> } />
               <Route path="/section" exact element={ <SectionPage/> } />
               <Route path="/test" exact element={ <TestPage/> } />
+              <Route path="/Natija" exact element={ <ResultPage/> } />
             </Routes>
           </div>
         </div>
